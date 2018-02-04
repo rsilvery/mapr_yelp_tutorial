@@ -13,12 +13,12 @@ Detailed steps for doing this with Condas can be found <a href="https://maprdocs
   	
 2. Zip this directory up from inside the directory:
 
-	cd mapr_yelp_tutorial/
-	zip -r mapr_yelp_tutorial.zip ./
+       cd mapr_yelp_tutorial/
+       zip -r mapr_yelp_tutorial.zip ./
   
 3. Store this to MapR-FS
-	
-	hadoop fs -put mapr_yelp_tutorial.zip /user/mapr/python_envs/
+
+       hadoop fs -put mapr_yelp_tutorial.zip /user/mapr/python_envs/
 
 
 
