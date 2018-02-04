@@ -2,7 +2,7 @@
 
 The Zeppelin notebook used in the MapR Python blog (insert link later)
 
-Goal: Peruse the Yelp Open Dataset and plot the probability of receiving a particular rating using MatPlotLib,PySpark, SparkSQL, and MapR-DB. Tutorial assumes you’ve already uploaded the JSON dataset from <a href="https://maprdocs.mapr.com/home/Zeppelin/InstallPySparkConda.html?hl=pyspark">here</a> to your distributed file system and placed it into the /user/mapr/ directory.
+Goal: Peruse the Yelp Open Dataset and plot the probability of receiving a particular rating using MatPlotLib,PySpark, SparkSQL, and MapR-DB. Tutorial assumes you’ve already uploaded the JSON dataset from <a href="https://maprdocs.mapr.com/home/Zeppelin/InstallPySparkConda.html?hl=pyspark">here</a> to your distributed file system and untarred it into the /user/mapr/ directory.
 
 
 <b>Step 1</b>: Create a Python environment and store it to MapR-FS
@@ -11,7 +11,7 @@ Detailed steps for doing this with Condas can be found <a href="https://maprdocs
 
 1. Create a Python environment with Pandas and MatPlotLib: 
 	
-      conda create -p mapr_yelp_tutorial/ python=2 pandas matplotlib
+       conda create -p mapr_yelp_tutorial/ python=2 pandas matplotlib
   	
 2. Zip this directory up from inside the directory:
 
